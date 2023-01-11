@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bancobyte-herdao.iml" filepath="$PROJECT_DIR$/bancobyte-herdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bancobyte-herdado.iml" filepath="$PROJECT_DIR$/bancobyte-herdado.iml" />
     </modules>
   </component>
 </project>
