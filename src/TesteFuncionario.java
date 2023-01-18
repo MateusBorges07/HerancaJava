@@ -1,7 +1,10 @@
 public class TesteFuncionario {
     public static void main(String[] args) {
-        Funcionario Mateus = new Gerente();
 
+        Cliente cliente = new Cliente();
+
+
+        Gerente Mateus = new Gerente();
         Mateus.setNome("Mateus Borges");
         Mateus.setCPF("49755456830");
         Mateus.setSalario(2600.00);

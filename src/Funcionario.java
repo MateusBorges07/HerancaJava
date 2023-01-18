@@ -1,3 +1,12 @@
+//não pode instanciar dessa class pq é abstrata
+
+//protected e depois public.
+//private - apenas visível dentro da classe
+//protected - visível dentro da classe e também para as filhas
+//public - visível em todo lugar
+//Repare também que protected é relacionado com a herança.
+
+//metodo sem corpo, não a imprementação
 public abstract class Funcionario {
 
     private String nome;
@@ -6,14 +15,10 @@ public abstract class Funcionario {
 
     private double salario;
 
-//protected e depois public.
-//private - apenas visível dentro da classe
-//protected - visível dentro da classe e também para as filhas
-//public - visível em todo lugar
-//Repare também que protected é relacionado com a herança.
 
-    public double  getBonificacao(){
-            return  this.salario * 0.05;
+
+    public abstract double  getBonificacao();{
+
     }
 
     public String getNome() {
