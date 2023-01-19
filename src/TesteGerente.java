@@ -1,5 +1,8 @@
 public class TesteGerente {
     public static void main(String[] args) {
+
+        AutenticacaoUtil gerente = new Gerente();
+
         Gerente g1 = new Gerente();
 
         g1.setNome("Mateus");
